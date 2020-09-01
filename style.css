@@ -1,0 +1,151 @@
+.container{
+    border-style: none;
+    border-width: 1px;
+    height:700px;
+    font-size: 1.5em;
+    margin:-8px;
+}
+div{
+    border-style: none;
+    border-width: 1px;
+    padding: 5px;
+    margin:-5px -5px -5px -5px;
+}
+.header{
+    height:100px;
+    border-color:orange;
+    margin-bottom:-5px;
+    background-color: rgb(0, 0, 0);
+    font-size:3em;
+    color:goldenrod;
+    text-align: center;
+}
+.hold {
+    display: flex;
+    height:600px;
+    border-color: red;
+  }
+  .hold > div {
+    flex: 4,4,0; /*grow*/
+    text-align: center;
+  }
+
+.box1{
+    
+    width:25%;
+    height:100%;
+    border-color: green;
+    background-color: aquamarine;
+}
+.box2{
+   
+    width:50%;
+    height:100%;
+    border-color: green;
+    background-color: darkgray;
+}
+.box3{
+    
+    width:25%;
+    height:100%;
+    border-color: green;
+    background-color: indianred;
+}
+label{
+    display: inline-block;
+}
+
+.form{
+    text-align: left;
+    height:70%;
+    margin-top:10px;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    margin-top: 4rem;
+    width:80%;
+    margin-left:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+input{
+    border-color: grey;
+    border-width: 0.6px;
+    border-radius: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left:5px;
+    margin:4px 4px 4px 4px;
+    height:2em;
+    font-size: 0.6em;
+}
+
+button{
+    border-radius: 15px;
+    font-size: 0.7em;
+    height:2.2em;
+    width:7em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border:none;
+}
+
+#salbut
+{
+    background-color: rgba(10, 216, 89, 0.76);
+    color: azure;
+    
+}
+#addbut
+{
+    background-color: rgba(10, 216, 89, 0.76);
+    color: azure;
+    
+}
+#withbut
+{
+    background-color: rgba(10, 216, 89, 0.76);
+    color: azure;
+    
+}
+#balance,#income,#expense
+{
+    background-color:rgb(9, 59, 167);
+    color: azure;
+    
+
+}
+#reset
+{
+    float:right;
+    margin-right:2rem;
+}
+#incomeinfo
+{
+  font-size: 1.5rem;
+}
+
+#expenseinfo
+{
+  font-size: 1.5rem;
+}
+
+#balanceinfo
+{
+    font-size: 2.4rem;
+    float: right;
+    margin-right: 2rem;
+    background-color: Yellow;
+    display: none;
+    
+    border:solid;
+    border-width: 0.2px;
+
+}
+#inc1{
+    background-color: white;
+    color:green;
+}
+
+#exp1{
+    background-color: white;
+    color:rgb(187, 24, 24);
+}

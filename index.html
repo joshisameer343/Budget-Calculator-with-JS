@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+                Budget Calculator
+            </div>
+            <div class="hold">    
+                <div class="box1">
+                    <div id="inc1">
+                        INCOME
+                    </div>
+                    <div id="incomeinfo">
+                        
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="form">
+                    <label>Enter your Salary</label>
+
+                    <input type="text" id="salary"></input>
+                    <br> <br>
+                    <button id="salbut" onclick="enter()">Enter</button>
+                    <br> <br>
+                    <label>Income</label>
+                    <input type="text" id="addinfo" placeholder="Add info"></input>
+                    <input type="text" id="addbox" placeholder="Amount"></input>
+                    <br> <br>
+                    <button id="addbut" onclick="addmoney()">Add</button>
+                    <br> <br>
+                    <label>Expense</label>
+                    
+                    <input type="text" id="withinfo" placeholder="Withdraw info"></input>
+                    <input type="text" id="withbox" placeholder="Amount"></input>
+                    <br><br> 
+                    <button id="withbut" onclick="withmoney()">Withdraw</button>
+                    <br><br> 
+                    
+                    <button id="reset" onclick="reset()">Reset</button>
+                    </div>
+                    <div id="balanceinfo">
+                        Balance
+                    </div>
+                </div>
+                <div class="box3">
+                    
+                        <div id="exp1">
+                            INCOME
+                        </div>
+                        <div id="expenseinfo">
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        
+    </div>
+</body>
+</body>
+</html>
